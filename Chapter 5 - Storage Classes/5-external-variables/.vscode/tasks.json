@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build Using Make",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceFolder}/src"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"windows": {
+				"command": "make",
+				"detail": "compiler: C:/cygwin64/bin/gcc.exe"
+			},
+			"linux": {
+				"command": "make",
+				"detail": "compiler: gcc"
+			}
+		}
+	]
+}

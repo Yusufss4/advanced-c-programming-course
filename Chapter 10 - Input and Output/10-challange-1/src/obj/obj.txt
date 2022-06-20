@@ -1,0 +1,1 @@
+.o files will be stored in the obj folder. 
