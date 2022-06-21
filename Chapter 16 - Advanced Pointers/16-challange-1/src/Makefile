@@ -8,11 +8,11 @@ LDIR =../lib
 LIBS=-lm
 
 #Add file names in the include folder. 
-_DEPS = TP3.h
+_DEPS = 
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
 #Add file names in the src folder.
-_OBJ = TP3.o main.o
+_OBJ = main.o
 OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
 
 
