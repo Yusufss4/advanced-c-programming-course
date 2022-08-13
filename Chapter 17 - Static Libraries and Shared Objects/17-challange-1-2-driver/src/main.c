@@ -38,14 +38,6 @@ int main()
     char *name = "Yusuf Savas";
     int lenght_of_string = 11;
     printf("Lenght of String: %d\n", lengthOfString(name));
-    if (lengthOfString(name) == lenght_of_string)
-    {
-        printf("Test 1: Passed");
-    }
-    else
-    {
-        printf("Test 1: Failed\n");
-    }
 
     char *name2 = "Yusuf Savas";
     char search_character = 'a';
