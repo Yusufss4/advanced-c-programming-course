@@ -1,18 +1,17 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <dlfcn.h>S
+#include <dlfcn.h>
 
 int main(void)
 {
 	void *handle = NULL;
 	char *error = NULL;
 
-	handle = dlopen("/mnt/c/Users/savas/Desktop/SideProjects/advanced-c-programming-course/Chapter 17 - Static Libraries and Shared Objects/17-challenge-2-library/lib_StringFunctions.so", RTLD_LAZY);
+	handle = dlopen("/lib/x86_64-linux-gnu/lib", RTLD_LAZY);
 
 	if (!handle)
 	{
 		fputs(dlerror(), stderr);
-		printf("\n\nError\n");
 		exit(1);
 	}
 
@@ -27,7 +26,7 @@ int main(void)
 	int (*lengthOfString)(char *) = NULL;
 	lengthOfString = dlsym(handle, "lengthOfString");
 
-	char* (*strConcat)(char *, char *) = NULL;
+	int (*strConcat)(char *, char *) = NULL;
 	strConcat = dlsym(handle, "strConcat");
 
 	int (*strCopy)(char **,char *) = NULL;
@@ -72,4 +71,3 @@ int main(void)
 
 	return 0;
 }
-

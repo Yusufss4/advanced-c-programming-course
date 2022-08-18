@@ -4,6 +4,8 @@
 *vscode/
 *.json
 *.log
+*.targets.log
+*targets.log
 
 ### SPECIAL ###
 
@@ -30,6 +32,7 @@ helloworld/
 
 # Executables
 *.exe
+*.exe.stackdump
 *.out
 *.app
 *.i*86

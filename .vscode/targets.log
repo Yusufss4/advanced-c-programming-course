@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Aug 15 20:12:14 2022
+# Make data base, printed on Thu Aug 18 10:50:02 2022
 
 # Variables
 
@@ -51,7 +51,7 @@ PATH = /home/yusufss/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-ba4b577d-dec8-4864-b976-d88c898657f4.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-19f51a84-b3d9-4a71-b215-260415ea64bc.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -63,7 +63,7 @@ PWD = /mnt/c/Users/savas/Desktop/SideProjects/advanced-c-programming-course
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/12_interop
+WSL_INTEROP = /run/WSL/1395_interop
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -205,6 +205,6 @@ GNUmakefile:
 # strcache performance: lookups = 33 / hit rate = 9%
 # hash-table stats:
 # Load=30/8192=0%, Rehash=0, Collisions=1/33=3%
-# Finished Make data base on Mon Aug 15 20:12:14 2022
+# Finished Make data base on Thu Aug 18 10:50:02 2022
 
  
