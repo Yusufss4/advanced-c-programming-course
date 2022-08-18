@@ -1,6 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/mnt/c/Users/savas/Desktop/SideProjects/advanced-c-programming-course'
-make: Leaving directory '/mnt/c/Users/savas/Desktop/SideProjects/advanced-c-programming-course'
- 
-make: *** No targets specified and no makefile found.  Stop.
-
