@@ -12,7 +12,15 @@
 			"string.h": "c",
 			"array": "c",
 			"string": "c",
-			"string_view": "c"
+			"string_view": "c",
+			"*.tcc": "c",
+			"limits": "c",
+			"numeric": "c",
+			"streambuf": "c",
+			"tuple": "c",
+			"type_traits": "c",
+			"utility": "c",
+			"cstdlib": "c"
 		}
 	}
 }
