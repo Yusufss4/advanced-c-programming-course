@@ -12,6 +12,9 @@
 #ifndef LINKEDLIST_H
 #define LINKEDLIST_H
 
+#define SUCCESS_LINKED_LIST 0
+#define ERROR_LINKED_LIST -1
+
 typedef struct node
 {
     int value;
@@ -19,11 +22,12 @@ typedef struct node
 } node_t;
 
 node_t *create_new_node(int value);
+void print_node(node_t *node);
 int insert_node_at_position(node_t **head, node_t *node_to_insert, int node_position);
 int insert_after_node(node_t *node_to_insert_after, node_t *new_node);
 int insert_node_at_end(node_t **head, node_t *node_to_insert);
 int insert_node_at_head(node_t **head, node_t *node_to_insert);
-int delete_node_at_position(node_t **head, node_t *node_to_insert, unsigned int node_position);
+int delete_node_at_position(node_t **head, unsigned int node_position);
 int update_node_value(node_t **head, node_t *node_to_insert, unsigned int node_position);
 int search_node(node_t *head, node_t **return_node, unsigned int node_data);
 void print_node_list(node_t *current_ptr);
