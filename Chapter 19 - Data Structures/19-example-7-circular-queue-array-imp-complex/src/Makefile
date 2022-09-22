@@ -8,11 +8,11 @@ LDIR =../lib
 LIBS=-lm
 
 #Add file names in the include folder. 
-_DEPS = 
+_DEPS = circular_buffer.h
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
 #Add file names in the src folder.
-_OBJ = main.o
+_OBJ = main.o circular_buffer.o
 OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
 
 
